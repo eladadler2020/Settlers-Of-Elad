@@ -1,7 +1,7 @@
 # robber_button_hint.gd
 extends Sprite2D
 
-var robber_on: bool = false:
+@export var robber_on: bool = false:
 	set(value):
 		robber_on = value
 		visible = !value 
